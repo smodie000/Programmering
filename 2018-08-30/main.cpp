@@ -12,8 +12,10 @@ int  main()
 	cout << endl; 
 	cout << "ny rad!!!!!!!!";
 	cout << endl;
-	cout << "vilken jävla kod alltså" endl; 
-	cout << "sjukt bra" endl; 
+	cout << "vilken jäkla kod alltså";
+	cout << endl;
+	cout << "sjukt bra";
+	
 	//programmet körs rad efter rad
 	//fungerar allt kommer vi fram 
 	//till "return 0;"
