@@ -26,5 +26,22 @@ int main ()
 	a=a*a;
 	cout << "b = " << b << endl;
 	cout << "a = " << a << endl;
+	cout << " B är 0 hahahahahahah" << endl;
+	int heltal1;
+    int heltal2;
+    int g1;
+    int g2;
+    cout << "skriv ett tal" << endl; 
+	cin >> heltal1; 
+	cout << "skriv in ett tal" << endl;
+	cin >> heltal2;
+	cout << "PLUS!"<< endl;
+	cout << heltal1 + heltal2 << endl;
+	cout << "skriv två tal samtidigt" << endl;
+	cin >> g1 >> g2; 
+	cout << g1 + g2 << endl;
+	
+	
+	
 	return 0;
 }
