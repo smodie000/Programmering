@@ -15,7 +15,7 @@ int  main()
 	cout << "vilken jäkla kod alltså";
 	cout << endl;
 	cout << "sjukt bra";
-	
+	cout << 
 	//programmet körs rad efter rad
 	//fungerar allt kommer vi fram 
 	//till "return 0;"
