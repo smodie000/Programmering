@@ -7,9 +7,11 @@ int main ()
 	//cout << tid [0] << "\t" << tid [2] << endl;
 	
 	
-	int tid = 1000;
+	int tid;
+	cin >> tid;
 	int min = tid / 60;
 	int sek = tid % 60;
+	
 	cout << tid << " s = " << min << " min och " << sek << " s" << endl;
 	
 	return 0;

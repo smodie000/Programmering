@@ -9,7 +9,8 @@ double tal1;
 
 cin >> tal1;
 cout << setprecision(0)<< tal1;
-
+double tal = talfalt[2]
+cout << tal; 
 
 
 	
