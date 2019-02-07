@@ -21,7 +21,7 @@ int main ()
 	//UPPGIFT 3.5
 	cout << "skriv namn" << endl;
 	string s;
-	getline(cin s);
+	getline(cin , s);
 	s.find(" ", 0 );
 	
 	

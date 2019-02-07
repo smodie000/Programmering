@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 int main()
@@ -6,7 +7,7 @@ int main()
 	int n;
     int resultat=1;
 	cout << "skriv ut n " << endl;
-	cin >> n ;
+	getline(cin,n); 
 	
 	for ( int i = 1; i <= n; i++) {
 		

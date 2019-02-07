@@ -2,19 +2,29 @@
 #include <cstdlib> 
 #include <ctime> 
 #include <unistd.h>
+
 using namespace std;
 
 int main()
 {
-	srand((unsigned)time(0)); 
-	int a;
-	a = 5;
- while (a == 5) {
+	int tal[4] = {1, 2, 3, 4};
+	
+	cout << tal[2]<< endl;
+	
+ while (true == true) {
 
     int i;
-    i = (rand()%18)+1; 
+    i = (rand()%5)+1; 
     cout << i << endl;
-    sleep(1);
+    
+    if (i == 5) {
+		cout << "FEM!" << endl;
+		sleep(1);
+	}
+	else {
+		sleep(1);
+	}
+	
 }
     
     

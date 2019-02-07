@@ -9,7 +9,8 @@ int main()
 {
 cout << RAND_MAX << endl;
 
-cout << time(NULL)
+cout << time(NULL);
+
 	
 	
 	return 0;
