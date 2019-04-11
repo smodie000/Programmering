@@ -1,2 +1,24 @@
-# Linux executable
-**/main
+# Ignore Everything
+*
+
+
+# But not 
+!*.cpp
+!*.h	
+!*.pro
+!*.ts
+!*.grc
+!*.rc
+!*.ui
+!*.png
+!*.jpg
+!*.ico
+!LICENSE
+# or directories
+!*/
+# and this
+!.gitignore
+!README.md
+
+
+
